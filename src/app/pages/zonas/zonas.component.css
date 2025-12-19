@@ -1,0 +1,37 @@
+.rutas {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.provincia {
+  background-color: #f9fbe7;
+  border: 3px solid #c5e1a5;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.provincia h3 {
+  text-align: center;
+  color: #33691e;
+  margin-bottom: 1rem;
+}
+
+.ruta {
+  background-color: #ffffff;
+  border-left: 5px solid #8bc34a;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+}
+
+.ruta h4 {
+  margin: 0 0 0.25rem 0;
+  color: #558b2f;
+}
+
+.ruta p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #444;
+}

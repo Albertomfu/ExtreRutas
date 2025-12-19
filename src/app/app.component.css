@@ -1,0 +1,47 @@
+/* .layout {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  min-height: calc(100vh - 160px);
+}
+
+.sidebar {
+  background-color: #f1f8e9;
+  border-right: 1px solid #c5e1a5;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+
+.content {
+  padding: 2rem;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+} */
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr; /* si quieres solo main */
+  min-height: calc(100vh - 160px);
+
+  margin: 2rem; /* margen arriba, abajo, izquierda y derecha */
+  gap: 1rem; /* separación interna si agregas más elementos */
+}
+
+.content {
+  padding: 2rem;
+  background-color: #f9f9f9; /* opcional, para que se vea separado del fondo */
+  border-radius: 16px; /* opcional, bordes redondeados */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* opcional, efecto flotante */
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .layout {
+    margin: 1rem; /* menos margen en móvil */
+  }
+}

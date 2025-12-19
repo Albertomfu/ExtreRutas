@@ -1,0 +1,21 @@
+<header class="header">
+  <div class="header-top">
+    <h1>ExtreRutas</h1>
+    <p>Senderismo y naturaleza en Extremadura</p>
+  </div>
+
+  <nav class="header-nav">
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Inicio</a
+    >
+    <a routerLink="/rutas" routerLinkActive="active">Rutas</a>
+    <a routerLink="/zonas" routerLinkActive="active">Zonas</a>
+    <!-- <a routerLink="/mapa" routerLinkActive="active">Mapa</a> -->
+    <a routerLink="/clima" routerLinkActive="active">Clima</a>
+    <a routerLink="/favoritos" routerLinkActive="active">Favoritos</a>
+    <a routerLink="/info" routerLinkActive="active">Info</a>
+  </nav>
+</header>
