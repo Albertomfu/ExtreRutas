@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-extremadura-map',
   templateUrl: './extremadura-map.component.html',
   styleUrls: ['./extremadura-map.component.css'],
-  imports: [],
+  imports: [RouterLink],
 })
 export class ExtremaduraMapComponent {
   constructor(private router: Router) {}
@@ -23,6 +23,6 @@ export class ExtremaduraMapComponent {
     this.router.navigate(['/alagon']);
   }
   irAElJerte() {
-    this.router.navigate(['/eljerte']);
+    this.router.navigate(['/elJerte']);
   }
 }

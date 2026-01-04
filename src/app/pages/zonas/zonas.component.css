@@ -35,3 +35,12 @@
   font-size: 0.95rem;
   color: #444;
 }
+.ruta-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ruta-link:hover .ruta {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}

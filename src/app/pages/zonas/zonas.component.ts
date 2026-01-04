@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-zonas',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './zonas.component.html',
-  styleUrl: './zonas.component.css'
+  styleUrl: './zonas.component.css',
 })
-export class ZonasComponent {
-
-}
+export class ZonasComponent {}

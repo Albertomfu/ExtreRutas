@@ -10,12 +10,12 @@
   text-align: center;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #33691e;
   background-color: #e8f5e9;
   padding: 0.75rem 1.5rem;
   border-radius: 14px;
   border: 3px solid #a5d6a7;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
 }
 
 .map-title {
@@ -44,385 +44,341 @@
 }
 
 /* LA VERA */
-
 .laVera {
   cursor: pointer;
-  fill: #66bb6a; /* color de relleno inicial más moderno */
-  stroke: #388e3c; /* color del borde más oscuro */
-  stroke-width: 4; /* borde visible */
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #81c784; /* verde suave */
+  stroke: #388e3c;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .laVera:hover {
-  fill: #43a047; /* color al pasar el ratón, más intenso */
-  stroke: #1b5e20; /* borde más oscuro al hover */
-  stroke-width: 5; /* borde más grueso al hover */
+  fill: #66bb6a;
+  stroke: #2e7d32;
+  stroke-width: 4;
 }
 
 /* TRUJILLO */
-
 .trujillo {
   cursor: pointer;
-  fill: #ffb74d; /* naranja claro */
-  stroke: #f57c00; /* borde más oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #ffcc80; /* naranja pastel */
+  stroke: #f57c00;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .trujillo:hover {
-  fill: #fb8c00; /* naranja más intenso */
-  stroke: #e65100; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #ffa726;
+  stroke: #e65100;
+  stroke-width: 4;
 }
 
-/* ALAGON */
-
+/* ALAGÓN */
 .alagon {
   cursor: pointer;
-  fill: #64b5f6; /* color de relleno inicial: azul claro */
-  stroke: #1e88e5; /* borde más oscuro azul */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #64b5f6; /* azul pastel */
+  stroke: #1e88e5;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .alagon:hover {
-  fill: #42a5f5; /* color al pasar el ratón: azul más intenso */
-  stroke: #0d47a1; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #42a5f5;
+  stroke: #0d47a1;
+  stroke-width: 4;
 }
 
 /* JERTE */
-
 .jerte {
   cursor: pointer;
-  fill: #ba68c8; /* morado claro */
-  stroke: #8e24aa; /* borde morado más oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #ba68c8; /* lavanda suave */
+  stroke: #8e24aa;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .jerte:hover {
-  fill: #9c27b0; /* morado más intenso al pasar el ratón */
-  stroke: #6a1b9a; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #ab47bc;
+  stroke: #6a1b9a;
+  stroke-width: 4;
 }
 
 /* LAS HURDES */
-
 .lasHurdes {
   cursor: pointer;
-  fill: #c77171; /* tono principal */
-  stroke: #8b3b3b; /* borde más oscuro para contraste */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #a1887f; /* marrón grisáceo */
+  stroke: #5d4037;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .lasHurdes:hover {
-  fill: #a14f4f; /* tono más intenso al pasar el ratón */
-  stroke: #5c1f1f; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #8d6e63;
+  stroke: #3e2723;
+  stroke-width: 4;
 }
 
 /* SIERRA DE GATA */
-
 .sierraDeGata {
   cursor: pointer;
-  fill: #4db6ac; /* turquesa suave */
-  stroke: #00796b; /* borde más oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #4db6ac; /* verde turquesa */
+  stroke: #00796b;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .sierraDeGata:hover {
-  fill: #009688; /* turquesa más intenso al pasar el ratón */
-  stroke: #004d40; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #26a69a;
+  stroke: #004d40;
+  stroke-width: 4;
 }
 
-/* AMBROZ */
-
+/* AMBRÓZ */
 .ambroz {
   cursor: pointer;
-  fill: #b39ddb; /* violeta claro / lavanda */
-  stroke: #6a1b9a; /* borde más oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #9575cd; /* violeta pastel */
+  stroke: #512da8;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .ambroz:hover {
-  fill: #7e57c2; /* violeta más intenso al pasar el ratón */
-  stroke: #4a148c; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #7e57c2;
+  stroke: #311b92;
+  stroke-width: 4;
 }
 
-/* ALCANTARA */
-
+/* ALCÁNTARA */
 .alcantara {
   cursor: pointer;
-  fill: #ffd54f; /* amarillo dorado claro */
-  stroke: #ffb300; /* borde más oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #fff176; /* amarillo pastel */
+  stroke: #fbc02d;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .alcantara:hover {
-  fill: #ffc107; /* amarillo más intenso al pasar el ratón */
-  stroke: #ff8f00; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #ffee58;
+  stroke: #f9a825;
+  stroke-width: 4;
 }
 
-/* CACERES */
-
+/* CÁCERES */
 .caceres {
   cursor: pointer;
-  fill: #ff8a65; /* coral claro */
-  stroke: #d84315; /* borde más oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #ff8a65; /* coral pastel */
+  stroke: #d84315;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .caceres:hover {
-  fill: #ff5722; /* coral más intenso al pasar el ratón */
-  stroke: #bf360c; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #ff7043;
+  stroke: #bf360c;
+  stroke-width: 4;
 }
 
 /* CAMPO ARAÑUELO */
-
 .campoAranuelo {
   cursor: pointer;
-  fill: #90a4ae; /* gris azulado claro */
-  stroke: #455a64; /* borde gris oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #90a4ae; /* gris azulado suave */
+  stroke: #455a64;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .campoAranuelo:hover {
-  fill: #607d8b; /* gris azulado más intenso */
-  stroke: #263238; /* borde casi negro al hover */
-  stroke-width: 5;
+  fill: #78909c;
+  stroke: #263238;
+  stroke-width: 4;
 }
 
 /* LOS IBORES */
-
 .losIbores {
   cursor: pointer;
-  fill: #bc8f6a; /* marrón claro / tierra */
-  stroke: #6d4c41; /* borde marrón oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #bcaaa4; /* marrón pastel */
+  stroke: #6d4c41;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .losIbores:hover {
-  fill: #a47148; /* marrón más intenso */
-  stroke: #4e342e; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #a1887f;
+  stroke: #4e342e;
+  stroke-width: 4;
 }
 
-/* VALENCIA DE ALCANTARA */
-
+/* VALENCIA DE ALCÁNTARA */
 .valenciaDeAlcantara {
   cursor: pointer;
-  fill: #d1a3b5; /* rosa empolvado */
-  stroke: #8e4a6f; /* borde malva oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #f48fb1; /* rosa pastel */
+  stroke: #c2185b;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .valenciaDeAlcantara:hover {
-  fill: #b56a8d; /* malva más intenso */
-  stroke: #5e2a44; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #f06292;
+  stroke: #880e4f;
+  stroke-width: 4;
 }
 
 /* LAS VILLUERCAS */
-
 .lasVilluercas {
   cursor: pointer;
-  fill: #4f7f7a; /* azul petróleo */
-  stroke: #1f4f4a; /* borde verde azulado oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #4db6ac; /* verde agua */
+  stroke: #00695c;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .lasVilluercas:hover {
-  fill: #2f9e9a; /* turquesa más vivo */
-  stroke: #103b38; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #26a69a;
+  stroke: #004d40;
+  stroke-width: 4;
 }
 
 /* ALBURQUERQUE */
-
 .alburquerque {
   cursor: pointer;
-  fill: #d28b5c; /* cobre suave */
-  stroke: #8c4a24; /* borde marrón oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #d7ccc8; /* beige suave */
+  stroke: #8d6e63;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .alburquerque:hover {
-  fill: #c96f2d; /* naranja tostado más intenso */
-  stroke: #5e2e12; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #bcaaa4;
+  stroke: #5d4037;
+  stroke-width: 4;
 }
 
 /* LA SIBERIA */
-
 .laSiberia {
   cursor: pointer;
-  fill: #8a7fa8; /* violeta grisáceo */
-  stroke: #4b4363; /* borde violeta oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #b39ddb; /* violeta gris */
+  stroke: #512da8;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .laSiberia:hover {
-  fill: #6f63a6; /* violeta más intenso */
-  stroke: #2f2847; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #9575cd;
+  stroke: #311b92;
+  stroke-width: 4;
 }
 
 /* BADAJOZ */
-
 .badajoz {
   cursor: pointer;
-  fill: #e0b75a; /* dorado ocre */
-  stroke: #8a6a1f; /* borde ocre oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #ffe082; /* dorado pastel */
+  stroke: #ffb300;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .badajoz:hover {
-  fill: #d4a017; /* dorado más intenso */
-  stroke: #5c430f; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #ffd54f;
+  stroke: #ff8f00;
+  stroke-width: 4;
 }
 
 /* LA SERENA */
-
 .laSerena {
   cursor: pointer;
-  fill: #e6cfa3; /* arena clara */
-  stroke: #9c7b3a; /* borde marrón dorado */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #ffe0b2; /* arena pastel */
+  stroke: #ffb74d;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .laSerena:hover {
-  fill: #d9b56f; /* arena más intensa */
-  stroke: #6e5421; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #ffcc80;
+  stroke: #f57c00;
+  stroke-width: 4;
 }
 
-/* MERIDA */
-
+/* MÉRIDA */
 .merida {
   cursor: pointer;
-  fill: #b0a59a; /* gris piedra clara */
-  stroke: #6f6256; /* borde gris oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #b0bec5; /* gris suave */
+  stroke: #546e7a;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .merida:hover {
-  fill: #9c8f82; /* piedra más oscura al hover */
-  stroke: #4a4036; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #90a4ae;
+  stroke: #37474f;
+  stroke-width: 4;
 }
 
 /* DON BENITO */
-
 .donBenito {
   cursor: pointer;
-  fill: #e3a35c; /* naranja teja suave */
-  stroke: #8a4b1e; /* borde marrón oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #ffcc80; /* naranja pastel */
+  stroke: #fb8c00;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .donBenito:hover {
-  fill: #cf8a3a; /* teja más intensa al hover */
-  stroke: #5c2e12; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #ffa726;
+  stroke: #ef6c00;
+  stroke-width: 4;
 }
 
 /* OLIVENZA */
-
 .olivenza {
   cursor: pointer;
-  fill: #b3545a; /* granate suave */
-  stroke: #5c1f22; /* borde vino oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #f48fb1; /* rosa suave */
+  stroke: #c2185b;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .olivenza:hover {
-  fill: #8e2c32; /* granate más intenso al hover */
-  stroke: #3a0f12; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #f06292;
+  stroke: #880e4f;
+  stroke-width: 4;
 }
 
 /* TIERRA DE BARROS */
-
 .tierraDeBarros {
   cursor: pointer;
-  fill: #d9996b; /* color tierra cálido */
-  stroke: #7a4f33; /* borde marrón oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  fill: #d7ccc8; /* beige cálido */
+  stroke: #8d6e63;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .tierraDeBarros:hover {
-  fill: #c2764b; /* tierra más intensa al hover */
-  stroke: #4e2e1a; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #bcaaa4;
+  stroke: #5d4037;
+  stroke-width: 4;
 }
 
 /* CAMPIÑA SUR */
-
 .campinaSur {
   cursor: pointer;
   fill: #b497bd; /* lavanda suave */
-  stroke: #6b4d7b; /* borde malva oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  stroke: #6b4d7b;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .campinaSur:hover {
-  fill: #9060a0; /* lavanda más intensa al hover */
-  stroke: #3f224f; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #9060a0;
+  stroke: #3f224f;
+  stroke-width: 4;
 }
 
 /* JEREZ DE LOS CABALLEROS */
-
 .jerezDeLosCaballeros {
   cursor: pointer;
   fill: #d46a4c; /* terracota suave */
-  stroke: #8a3523; /* borde marrón oscuro */
-  stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
+  stroke: #8a3523;
+  stroke-width: 3;
+  transition: all 0.3s;
 }
-
 .jerezDeLosCaballeros:hover {
-  fill: #b8432b; /* terracota más intensa al hover */
-  stroke: #4e1c12; /* borde más oscuro al hover */
-  stroke-width: 5;
+  fill: #b8432b;
+  stroke: #4e1c12;
+  stroke-width: 4;
 }
 
 /* TENTUDIA */
-
 .tentudia {
   cursor: pointer;
-  fill: #6c8ea4; /* azul grisáceo suave */
-  stroke: #3a4d5c; /* borde azul oscuro */
+  fill: #6c8ea4; /* azul gris pastel */
+  stroke: #3a4d5c;
+  stroke-width: 3;
+  transition: all 0.3s;
+}
+.tentudia:hover {
+  fill: #52758a;
+  stroke: #1f2b34;
   stroke-width: 4;
-  transition: fill 0.3s, stroke 0.3s, stroke-width 0.3s;
 }
 
-.tentudia:hover {
-  fill: #52758a; /* azul grisáceo más intenso al hover */
-  stroke: #1f2b34; /* borde más oscuro al hover */
-  stroke-width: 5;
+text:hover {
+  cursor: pointer;
 }

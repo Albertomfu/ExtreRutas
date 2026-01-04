@@ -1,9 +1,9 @@
-.layout {
+.home-layout {
   display: grid;
   grid-template-columns: 600px 1fr; /* sidebar fijo a 600px, main ocupa el resto */
   min-height: calc(100vh - 160px);
-  gap: 0.5rem; /* separación entre sidebar y main */
-  margin-top: 1.5rem; /* espacio superior para separar del header */
+  gap: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 .sidebar {
@@ -22,12 +22,12 @@
 
 /* Responsive */
 @media (max-width: 900px) {
-  .layout {
-    grid-template-columns: 1fr; /* todo en columna única en móvil */
+  .home-layout {
+    grid-template-columns: 1fr;
   }
 
   .sidebar {
     margin-bottom: 1rem;
-    width: 100%; /* ocupa todo el ancho en móvil */
+    width: 100%;
   }
 }
