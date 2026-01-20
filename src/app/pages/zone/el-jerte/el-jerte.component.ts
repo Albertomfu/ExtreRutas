@@ -18,6 +18,8 @@ export class ElJerteComponent {
       tipo: 'Circular',
       imagen: 'images/jerte/nogaledas.jpg',
       maps: 'https://www.google.com/maps/search/Cascadas+de+las+Nogaledas',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Garganta de los Infiernos',
@@ -29,6 +31,8 @@ export class ElJerteComponent {
       tipo: 'Circular',
       imagen: 'images/jerte/garganta-de-los-infiernos.jpg',
       maps: 'https://www.google.com/maps/search/Garganta+de+los+Infiernos',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta del Puerto de Honduras',
@@ -40,6 +44,8 @@ export class ElJerteComponent {
       tipo: 'Lineal',
       imagen: 'images/jerte/puerto_de_honduras.jpg',
       maps: 'https://www.google.com/maps/search/Puerto+de+Honduras',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
 
     {
@@ -52,6 +58,8 @@ export class ElJerteComponent {
       tipo: 'Circular',
       imagen: 'images/jerte/cerezo-en-flor.jpg',
       maps: 'https://www.google.com/maps/search/Cabezuela+del+Valle',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Sendero del Caozo',
@@ -63,6 +71,8 @@ export class ElJerteComponent {
       tipo: 'Ida y vuelta',
       imagen: 'images/jerte/caozo.jpg',
       maps: 'https://www.google.com/maps/search/Cascada+del+Caozo',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta del Torno',
@@ -74,6 +84,8 @@ export class ElJerteComponent {
       tipo: 'Circular',
       imagen: 'images/jerte/ruta-del-torno.jpg',
       maps: 'https://www.google.com/maps/search/El+Torno+Caceres',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Sendero del Río Jerte',
@@ -85,6 +97,8 @@ export class ElJerteComponent {
       tipo: 'Lineal',
       imagen: 'images/jerte/rio-jerte.jpg',
       maps: 'https://www.google.com/maps/search/Rio+Jerte',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta de Tornavacas a Candelario',
@@ -96,6 +110,8 @@ export class ElJerteComponent {
       tipo: 'Lineal',
       imagen: 'images/jerte/tornavacas.jpg',
       maps: 'https://www.google.com/maps/search/Tornavacas',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Sendero del Valle Alto',
@@ -107,6 +123,8 @@ export class ElJerteComponent {
       tipo: 'Circular',
       imagen: 'images/jerte/valle-alto.jpg',
       maps: 'https://www.google.com/maps/search/Piornal+Caceres',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta de las Gargantas Menores',
@@ -118,6 +136,8 @@ export class ElJerteComponent {
       tipo: 'Circular',
       imagen: 'images/jerte/gargantas-menores.jpg',
       maps: 'https://www.google.com/maps/search/Barrado+Caceres',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
   ];
 }

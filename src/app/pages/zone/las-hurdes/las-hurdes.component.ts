@@ -18,6 +18,8 @@ export class LasHurdesComponent {
       tipo: 'Ida y vuelta',
       imagen: 'images/hurdes/meandro-melero.jpg',
       maps: 'https://www.google.com/maps/search/Meandro+del+Melero',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta del Río Malvellido',
@@ -29,6 +31,8 @@ export class LasHurdesComponent {
       tipo: 'Circular',
       imagen: 'images/hurdes/rio-malvellido.webp',
       maps: 'https://www.google.com/maps/search/Rio+Malvellido',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Chorro de la Meancera',
@@ -40,6 +44,8 @@ export class LasHurdesComponent {
       tipo: 'Ida y vuelta',
       imagen: 'images/hurdes/chorro-meancera.jpg',
       maps: 'https://www.google.com/maps/search/Chorro+de+la+Meancera',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta de las Alquerías',
@@ -51,6 +57,8 @@ export class LasHurdesComponent {
       tipo: 'Circular',
       imagen: 'images/hurdes/alquerias.jpg',
       maps: 'https://www.google.com/maps/search/Casares+de+las+Hurdes',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Sendero del Río Ladrillar',
@@ -62,6 +70,8 @@ export class LasHurdesComponent {
       tipo: 'Lineal',
       imagen: 'images/hurdes/ladrillar.jpg',
       maps: 'https://www.google.com/maps/search/Rio+Ladrillar',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta de los Miradores Hurdano',
@@ -73,6 +83,8 @@ export class LasHurdesComponent {
       tipo: 'Circular',
       imagen: 'images/hurdes/miradores-hurdanos.jpg',
       maps: 'https://www.google.com/maps/search/Pinofranqueado',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta del Volcán del Gasco',
@@ -84,6 +96,8 @@ export class LasHurdesComponent {
       tipo: 'Circular',
       imagen: 'images/hurdes/volcan-del-gasco.jpg',
       maps: 'https://www.google.com/maps/search/Volcan+del+Gasco',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Sendero de la Fragosa',
@@ -95,6 +109,8 @@ export class LasHurdesComponent {
       tipo: 'Ida y vuelta',
       imagen: 'images/hurdes/sendero-fragosa.jpg',
       maps: 'https://www.google.com/maps/search/Cascada+de+Ovejuela',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta del Río Esperabán',
@@ -106,6 +122,8 @@ export class LasHurdesComponent {
       tipo: 'Circular',
       imagen: 'images/hurdes/ruta-rio-esperaban.jpg',
       maps: 'https://www.google.com/maps/search/Rio+Esperaban',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
     {
       nombre: 'Ruta de los Canchos de Ramiro',
@@ -117,6 +135,8 @@ export class LasHurdesComponent {
       tipo: 'Circular',
       imagen: 'images/hurdes/Canchos_de_Ramiro.jpg',
       maps: 'https://www.google.com/maps/search/Canchos+de+Ramiro',
+      wikiloc:
+        'https://www.wikiloc.com/hiking-trails/castillo-de-reina-desde-reina-5080676',
     },
   ];
 }

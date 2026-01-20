@@ -1,0 +1,13 @@
+<section class="zona-view">
+  @if (selectedZona && zonaComponentMap[selectedZona]) {
+  <ng-container [ngComponentOutlet]="zonaComponentMap[selectedZona]" />
+  } @else {
+  <div class="placeholder">
+    <div class="placeholder-card">
+      <span class="icon">🗺️</span>
+      <h2>Explora Extremadura</h2>
+      <p>Selecciona una zona del mapa para descubrir sus rutas</p>
+    </div>
+  </div>
+  }
+</section>

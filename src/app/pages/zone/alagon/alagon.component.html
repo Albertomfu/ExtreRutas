@@ -14,8 +14,7 @@
     <iframe
       src="https://www.google.com/maps?q=Valle%20del%20Alagon%20Caceres&output=embed"
       loading="lazy"
-    >
-    </iframe>
+    ></iframe>
   </div>
 
   <!-- Rutas -->
@@ -36,9 +35,25 @@
           <li><strong>Tipo:</strong> {{ ruta.tipo }}</li>
         </ul>
 
-        <a [href]="ruta.maps" target="_blank" rel="noopener">
-          Ver en Google Maps
-        </a>
+        <div class="ruta-links">
+          <a
+            class="maps"
+            [attr.href]="ruta.maps"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Maps
+          </a>
+
+          <a
+            class="wikiloc"
+            [attr.href]="ruta.wikiloc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Wikiloc
+          </a>
+        </div>
       </div>
     </article>
     }
