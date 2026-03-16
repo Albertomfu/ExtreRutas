@@ -9,82 +9,82 @@ import { Component } from '@angular/core';
 export class LasVilluercasComponent {
   rutas = [
     {
-      nombre: 'GR‑116 Camino Natural de Las Villuercas',
+      nombre: 'Camino Natural de Las Villuercas',
       salida: 'Puerto Rey',
       llegada: 'Logrosán',
       km: 76,
       dificultad: 'Alta',
       duracion: 'Variada',
       tipo: 'Solo ida',
-      imagen: 'images/villuercas/gr116.jpg',
+      imagen: 'images/villuercas/5534625Master.jpg',
       maps: 'https://www.google.com/maps?q=Puerto+Rey+Extremadura',
       wikiloc:
-        'https://es.wikiloc.com/rutas-senderismo/camino-natural-de-las-villuercas-6039629', // ruta clásica de largo recorrido en Villuercas :contentReference[oaicite:0]{index=0}
+        'https://es.wikiloc.com/rutas-senderismo/gr-116-camino-natural-de-las-villuercas-9311553',
     },
     {
       nombre: 'Pico Villuercas (circular)',
       salida: 'Navezuelas',
       llegada: 'Pico Villuercas',
-      km: 9.8,
-      dificultad: 'Media',
-      duracion: '3‑4 h',
+      km: 16,
+      dificultad: 'Difícil',
+      duracion: '5 h',
       tipo: 'Circular',
-      imagen: 'images/villuercas/pico-villuercas.jpg',
+      imagen: 'images/villuercas/picoVilluercas.jpg',
       maps: 'https://www.google.com/maps/search/Pico+Villuercas+Caceres',
       wikiloc:
-        'https://es.wikiloc.com/rutas-senderismo/pico-villuercas-5737194', // subida y vuelta al Pico Villuercas :contentReference[oaicite:1]{index=1}
+        'https://es.wikiloc.com/rutas-senderismo/navezuelas-864m-pico-villuercas-1595m-19-5km-y-773m-desnivel-ruta-circular-99226893',
     },
     {
       nombre: 'Geoparque Las Villuercas',
       salida: 'Cabañas del Castillo',
       llegada: 'Geoparque Villuercas',
-      km: 13,
+      km: 28.4,
       dificultad: 'Media',
-      duracion: '5 h',
+      duracion: '8,30 h',
       tipo: 'Lineal',
-      imagen: 'images/villuercas/geoparque-villuercas.jpg',
+      imagen: 'images/villuercas/geoparque.jpg',
       maps: 'https://www.google.com/maps/search/Cabañas+del+Castillo',
       wikiloc:
-        'https://es.wikiloc.com/rutas-senderismo/geoparque-las-villuercas-12490523', // ruta senderismo representativa por Villuercas :contentReference[oaicite:2]{index=2}
+        'https://es.wikiloc.com/rutas-coche/geoparque-villuercas-ibores-jara-caceres-itinerario-geologico-a-la-villuerca-guadalupe-pico-villuer-100694364',
     },
     {
-      nombre: 'Navezuelas – Pico Villuercas (sendero avanzado)',
+      nombre: 'Navezuelas pico Villuercas',
       salida: 'Navezuelas',
       llegada: 'Pico Villuercas',
-      km: 15.7,
-      dificultad: 'Alta',
+      km: 22.62,
+      dificultad: 'Media',
       duracion: '6‑7 h',
       tipo: 'Circular',
-      imagen: 'images/villuercas/navezuelas-pico.jpg',
+      imagen: 'images/villuercas/navezuela.jpg',
       maps: 'https://www.google.com/maps/search/Navezuelas+Caceres',
       wikiloc:
-        'https://www.wikiloc.com/hiking-trails/navezuelas-las-villuercas-circular-pico-villuercas-subida-por-el-almonte-y-regreso-por-viejas-37660133', // ruta extensa por Pico Villuercas :contentReference[oaicite:3]{index=3}
+        'https://es.wikiloc.com/rutas-senderismo/navezuelas-pico-villuercas-navezuelas-20851756',
     },
     {
-      nombre: 'Ruta del Geoparque Villuercas‑Ibores‑Jara',
+      nombre: 'Sierra de las Acebadillas',
       salida: 'Cañamero',
       llegada: 'Roturas / La Solana',
-      km: 50,
+      km: 2,
       dificultad: 'Media',
-      duracion: '4‑6 h',
+      duracion: '2 h',
       tipo: 'Circular',
-      imagen: 'images/villuercas/geoparque-grande.jpg',
-      maps: 'https://www.google.com/maps/search/Geoparque+Villuercas+Ibores+Jara',
+      imagen: 'images/villuercas/acebadillas.jpg',
+      maps: 'https://www.google.com/maps/search/sierra+de+las+acebadillas,+extremadura/@39.47383,-5.7830702,91002m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D',
       wikiloc:
-        'https://es.wikiloc.com/rutas-ciclismo/ruta-por-el-geoparque-villuercas-ibores-jara-41705203', // recorrido amplio por el geoparque :contentReference[oaicite:4]{index=4}
+        'https://es.wikiloc.com/rutas-senderismo/sierra-de-las-acebadillas-villuercas-210757397',
     },
     {
       nombre: 'Molinos del Guadalupejo y Embalse',
       salida: 'Guadalupe',
       llegada: 'Molinos y Embalse',
-      km: 12.8,
+      km: 14.8,
       dificultad: 'Media',
-      duracion: '3‑4 h',
+      duracion: '6,3 h',
       tipo: 'Circular',
-      imagen: 'images/villuercas/molinos-guadalupejo.jpg',
+      imagen: 'images/villuercas/molinos.jpg',
       maps: 'https://www.google.com/maps/search/Guadalupe+Caceres',
       wikiloc:
-        'https://es.wikiloc.com/rutas-senderismo/villuercas-ibores-jara-guadalupe-ruta-molinos-del-guadalupejo-y-embalse-206754408', // interesante ruta circular cerca de Guadalupe :contentReference[oaicite:5]{index=5}
+        'https://es.wikiloc.com/rutas-senderismo/molinos-del-guadalupejo-y-viaducto-3707712',
     },
   ];
 }

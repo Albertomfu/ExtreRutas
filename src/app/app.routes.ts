@@ -26,11 +26,13 @@ import { SierraDeGataComponent } from './pages/zone/sierra-de-gata/sierra-de-gat
 import { TentudiaComponent } from './pages/zone/tentudia/tentudia.component';
 import { TierraDeBarrosComponent } from './pages/zone/tierra-de-barros/tierra-de-barros.component';
 import { ValenciaDeAlcantaraComponent } from './pages/zone/valencia-de-alcantara/valencia-de-alcantara.component';
+import { InfoComponent } from './pages/info/info.component';
 
 export const routes: Routes = [
   // { path: '', redirectTo: 'rutas', pathMatch: 'full' },
   { path: '', component: HomeComponent },
   { path: 'zonas', component: ZonasComponent },
+  { path: 'info', component: InfoComponent },
   { path: 'lasHurdes', component: LasHurdesComponent },
   { path: 'trujillo', component: TrujilloComponent },
   { path: 'laVera', component: LaVeraComponent },

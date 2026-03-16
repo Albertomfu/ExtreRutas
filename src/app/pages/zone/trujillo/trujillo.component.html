@@ -23,26 +23,42 @@
   <!-- Rutas -->
   <section class="rutas">
     @for (ruta of rutas; track ruta.nombre) {
-    <article class="ruta-card">
-      <img [src]="ruta.imagen" [alt]="ruta.nombre" />
+      <article class="ruta-card">
+        <img [src]="ruta.imagen" [alt]="ruta.nombre" />
 
-      <div class="ruta-info">
-        <h3>{{ ruta.nombre }}</h3>
+        <div class="ruta-info">
+          <h3>{{ ruta.nombre }}</h3>
 
-        <ul>
-          <li><strong>Salida:</strong> {{ ruta.salida }}</li>
-          <li><strong>Llegada:</strong> {{ ruta.llegada }}</li>
-          <li><strong>Distancia:</strong> {{ ruta.km }} km</li>
-          <li><strong>Duración:</strong> {{ ruta.duracion }}</li>
-          <li><strong>Dificultad:</strong> {{ ruta.dificultad }}</li>
-          <li><strong>Tipo:</strong> {{ ruta.tipo }}</li>
-        </ul>
+          <ul>
+            <li><strong>Salida:</strong> {{ ruta.salida }}</li>
+            <li><strong>Llegada:</strong> {{ ruta.llegada }}</li>
+            <li><strong>Distancia:</strong> {{ ruta.km }} km</li>
+            <li><strong>Duración:</strong> {{ ruta.duracion }}</li>
+            <li><strong>Dificultad:</strong> {{ ruta.dificultad }}</li>
+            <li><strong>Tipo:</strong> {{ ruta.tipo }}</li>
+          </ul>
 
-        <a [href]="ruta.maps" target="_blank" rel="noopener">
-          Ver en Google Maps
-        </a>
-      </div>
-    </article>
+          <div class="ruta-links">
+            <a
+              class="maps"
+              [attr.href]="ruta.maps"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Maps
+            </a>
+
+            <a
+              class="wikiloc"
+              [attr.href]="ruta.wikiloc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Wikiloc
+            </a>
+          </div>
+        </div>
+      </article>
     }
   </section>
 </section>
