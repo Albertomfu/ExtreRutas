@@ -1,21 +1,40 @@
 <header class="header">
-  <div class="header-top">
-    <h1>ExtreRutas</h1>
-    <p>Senderismo y naturaleza en Extremadura</p>
-  </div>
+  <div class="header-container">
+    <!-- LOGO -->
+    <div class="logo">
+      <h1 routerLink="/">ExtreRutas</h1>
+    </div>
 
-  <nav class="header-nav">
-    <a
-      routerLink="/"
-      routerLinkActive="active"
-      [routerLinkActiveOptions]="{ exact: true }"
-      >Inicio</a
-    >
-    <a routerLink="/rutas" routerLinkActive="active">Rutas</a>
-    <a routerLink="/zonas" routerLinkActive="active">Zonas</a>
-    <!-- <a routerLink="/mapa" routerLinkActive="active">Mapa</a> -->
-    <a routerLink="/clima" routerLinkActive="active">Clima</a>
-    <a routerLink="/favoritos" routerLinkActive="active">Favoritos</a>
-    <a routerLink="/info" routerLinkActive="active">Info</a>
-  </nav>
+    <!-- MENÚ CENTRAL -->
+    <nav class="nav-center">
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Inicio</a
+      >
+      <a routerLink="/rutas" routerLinkActive="active">Rutas</a>
+      <a routerLink="/zonas" routerLinkActive="active">Zonas</a>
+      <a routerLink="/clima" routerLinkActive="active">Clima</a>
+      <a routerLink="/info" routerLinkActive="active">Info</a>
+    </nav>
+
+    <!-- LOGIN DERECHA -->
+    <div class="nav-right">
+      <ng-container *ngIf="!usuario">
+        <a routerLink="/login" class="login">Iniciar sesión</a>
+        <a routerLink="/registro" class="register">Crear cuenta</a>
+      </ng-container>
+
+      <ng-container *ngIf="usuario">
+        <span class="user">👤 {{ usuario.nombre }}</span>
+
+        <a *ngIf="usuario.role === 'admin'" routerLink="/admin" class="admin">
+          Admin
+        </a>
+
+        <a (click)="logout()" class="logout"> Salir </a>
+      </ng-container>
+    </div>
+  </div>
 </header>
