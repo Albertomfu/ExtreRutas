@@ -21,19 +21,22 @@
 
     <!-- LOGIN DERECHA -->
     <div class="nav-right">
+      <!-- NO LOGUEADO -->
       <ng-container *ngIf="!usuario">
         <a routerLink="/login" class="login">Iniciar sesión</a>
-        <a routerLink="/registro" class="register">Crear cuenta</a>
+        <a routerLink="/register" class="register">Crear cuenta</a>
       </ng-container>
 
+      <!-- LOGUEADO -->
       <ng-container *ngIf="usuario">
         <span class="user">👤 {{ usuario.nombre }}</span>
 
+        <!-- 👇 SOLO ADMIN -->
         <a *ngIf="usuario.role === 'admin'" routerLink="/admin" class="admin">
-          Admin
+          Panel Admin
         </a>
 
-        <a (click)="logout()" class="logout"> Salir </a>
+        <a (click)="logout()" class="logout">Salir</a>
       </ng-container>
     </div>
   </div>

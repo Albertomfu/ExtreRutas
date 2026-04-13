@@ -27,12 +27,30 @@ import { TentudiaComponent } from './pages/zone/tentudia/tentudia.component';
 import { TierraDeBarrosComponent } from './pages/zone/tierra-de-barros/tierra-de-barros.component';
 import { ValenciaDeAlcantaraComponent } from './pages/zone/valencia-de-alcantara/valencia-de-alcantara.component';
 import { InfoComponent } from './pages/info/info.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { authGuard } from './core/guards/auth.guard';
+import { adminGuard } from './core/guards/auth.guard';
+import { AdminComponent } from './pages/admin/admin.component';
 
 export const routes: Routes = [
   // { path: '', redirectTo: 'rutas', pathMatch: 'full' },
+  {
+    path: 'admin',
+    loadComponent: () =>
+      import('./pages/admin/admin.component').then((m) => m.AdminComponent),
+    canActivate: [authGuard],
+  },
   { path: '', component: HomeComponent },
   { path: 'zonas', component: ZonasComponent },
   { path: 'info', component: InfoComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  {
+    path: 'admin',
+    component: AdminComponent,
+    canActivate: [adminGuard],
+  },
   { path: 'lasHurdes', component: LasHurdesComponent },
   { path: 'trujillo', component: TrujilloComponent },
   { path: 'laVera', component: LaVeraComponent },

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { RutasService } from '../../../services/rutas.service';
 
 @Component({
   selector: 'app-valencia-de-alcantara',
@@ -6,8 +7,8 @@ import { Component } from '@angular/core';
   templateUrl: './valencia-de-alcantara.component.html',
   styleUrl: './valencia-de-alcantara.component.css',
 })
-export class ValenciaDeAlcantaraComponent {
-  rutas = [
+export class ValenciaDeAlcantaraComponent implements OnInit {
+  rutasEstaticas = [
     {
       nombre: 'Ruta de los Dólmenes',
       salida: 'Valencia de Alcántara',
@@ -87,4 +88,22 @@ export class ValenciaDeAlcantaraComponent {
         'https://es.wikiloc.com/rutas-senderismo/valencia-de-alcantara-santo-antonio-por-el-fraguil-17092262',
     },
   ];
+  // 🔹 RUTAS DINÁMICAS (admin)
+  rutasBackend: any[] = [];
+
+  // 🔹 COMBINADAS (las que usa el HTML)
+  rutas: any[] = [];
+
+  constructor(private rutasService: RutasService) {}
+
+  ngOnInit() {
+    this.rutasService.getRutas().subscribe((res: any) => {
+      this.rutasBackend = res.filter(
+        (ruta: any) => ruta.zona === 'valenciaDeAlcantara',
+      );
+
+      // 🔥 AQUÍ ESTÁ LA CLAVE
+      this.rutas = [...this.rutasEstaticas, ...this.rutasBackend];
+    });
+  }
 }

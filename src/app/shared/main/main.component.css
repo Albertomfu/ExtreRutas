@@ -79,7 +79,7 @@
 /* TARJETA */
 
 .placeholder-card {
-  max-width: 500px;
+  max-width: 700px;
   text-align: center;
   padding: 3.5rem 3rem;
   border-radius: 28px;
@@ -150,7 +150,7 @@
 /* TITULO */
 
 .placeholder-card h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 
   font-weight: 900;
 
